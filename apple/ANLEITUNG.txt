@@ -1,0 +1,18 @@
+Tagesplaner – eigenständige App für Mac und iPad (ohne App Store)
+
+MAC (Programm zum Doppelklicken)
+1. Einmalig im Terminal:  xcode-select --install   (kostenlose Apple-Entwicklerwerkzeuge)
+2. Im Terminal ausführen:  bash "<Pfad zu diesem Ordner>/Mac-App-bauen.command"
+   (Tipp: "bash " tippen und die Datei ins Terminal-Fenster ziehen)
+3. Danach liegt die fertige App in diesem Ordner. In "Programme" ziehen, fertig.
+   Falls macOS beim ersten Start warnt: Rechtsklick auf die App -> Öffnen.
+
+IPAD (Swift Playgrounds, kostenlos von Apple)
+1. Ordner Tagesplaner.swiftpm per AirDrop/iCloud/Dateien aufs iPad bringen.
+2. In Swift Playgrounds öffnen und auf Start tippen.
+
+IPAD/IPHONE ÜBER XCODE
+Tagesplaner.swiftpm in Xcode öffnen, Gerät wählen, Start. Für ein echtes Gerät
+unter Signing deine Apple-ID als Team wählen (kostenlos, App läuft ca. 7 Tage).
+
+Daten werden lokal auf dem jeweiligen Gerät gespeichert.
